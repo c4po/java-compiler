@@ -1,4 +1,4 @@
 # java-compiler
 
 
-docker run --rm -v `pwd`:/home kubernetesio/java-compiler mvn compile
+docker run --rm -v `pwd`:/root kubernetesio/java-compiler mvn compile

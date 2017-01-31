@@ -23,4 +23,4 @@ RUN curl -fsSL http://archive.apache.org/dist/ant/ivy/${INY_VERSION}/apache-ivy-
   && mv /usr/share/apache-ivy-${INY_VERSION} /usr/share/ivy \
   && cp /usr/share/ivy/ivy-${INY_VERSION}.jar /usr/share/ant/lib
 
-WORKDIR /home
+WORKDIR /root
