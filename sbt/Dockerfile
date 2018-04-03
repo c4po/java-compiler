@@ -20,7 +20,7 @@ RUN \
   dpkg -i sbt-$SBT_VERSION.deb && \
   rm sbt-$SBT_VERSION.deb && \
   apt-get update && \
-  apt-get install sbt rpm && \
+  apt-get install -y sbt rpm && \
   sbt sbtVersion
 
 # Define working directory
